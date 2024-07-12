@@ -1,30 +1,49 @@
-# React + TypeScript + Vite
+# Timeline Básica em ReactJS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descrição
 
-Currently, two official plugins are available:
+Este projeto é uma aplicação simples em ReactJS que exibe uma timeline básica. Cada post na timeline mostra há quanto tempo foi publicado, permite adicionar e remover comentários, e aplaudir os posts.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Funcionalidades
 
-## Expanding the ESLint configuration
+- Exibição de posts em ordem cronológica
+- Cálculo do tempo decorrido desde a publicação de cada post
+- Adição e remoção de comentários em cada post
+- Função de aplaudir posts para indicar apreciação
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Pré-requisitos
 
-- Configure the top-level `parserOptions` property like this:
+- Node.js instalado
+- npm (ou yarn) instalado
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Instalação
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seuusuario/timeline-basica-reactjs.git
+   ```
+2. Navegue até o diretório do projeto:
+   ```bash
+   cd timeline-basica-reactjs
+   ```
+3. Instale as dependências:
+   ```bash
+   npm install
+   ```
+   ou
+   ```bash
+   yarn install
+   ```
+
+## Uso
+
+1. Inicie o servidor de desenvolvimento:
+   ```bash
+   npm start
+   ```
+   ou
+   ```bash
+   yarn start
+   ```
+2. Abra o navegador e acesse `http://localhost:3000` para visualizar a aplicação.
+
